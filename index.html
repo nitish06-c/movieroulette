@@ -1,8 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        
+        <div class="centeredWidget">
+            <div class="title"><p>Movie Roulette</p></div>
+
+            <div class='chooseGenre'><p>Choose Your Genre</p></div>
+
+            <div class='buttonGroup'>
+                <button class="themeButton" onclick="actionClick()">Action</button>
+                <script>
+                  function actionClick(elmnt,clr) {
+                  }
+                </script>
+                <button class="themeButton" onclick="comedyClick()">Comedy</button>
+                <button class="themeButton" onclick="dramaClick()">Drama</button>
+                <button class="themeButton" onclick="fantasyClick()">Fantasy</button>
+                <button class="themeButton" onclick="horrorClick()">Horror</button>
+                <button class="themeButton" onclick="romanceClick()">Romance</button>
+            </div>
+        </div>
     </body>
+
+<!-- 
+    <div className='buttonGroup'>
+      <button class="themeButton" onclick="actionClick()">Action</button>
+      <script>
+        function actionClick(elmnt,clr) {
+        }
+      </script>
+      <button class="themeButton" onclick="comedyClick()">Comedy</button>
+      <button class="themeButton" onclick="dramaClick()">Drama</button>
+      <button class="themeButton" onclick="fantasyClick()">Fantasy</button>
+      <button class="themeButton" onclick="horrorClick()">Horror</button>
+      <button class="themeButton" onclick="romanceClick()">Romance</button>
+  
+</div>-->

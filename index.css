@@ -1,0 +1,84 @@
+.mainScreenBase {
+  width: 660px;
+height: 572px;
+right: 656px;
+top: 297px;
+
+background-color: #000000;
+border-radius: 10px;
+}
+  
+.centeredWidget {
+  height: 52vh;
+  width: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 250px;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+}
+
+.title {
+
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+margin-top: -370px;
+font-style: normal;
+font-weight: bold;
+font-size: 84px;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.chooseGenre {
+  font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 36px;
+margin-top: -100px;
+position: fixed;
+color: #000000;
+
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.buttonTopSpace {
+  height: 200px;
+  position:fixed;
+  background-color: aqua;
+}
+
+.buttonGroup {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px; 
+  margin-top: 200px; 
+}
+
+.themeButton {
+  width: 270px;
+height: 60px;
+left: 653px;
+top: 600px;
+
+background: #AF0B00;
+border-radius: 5px;
+
+border: none;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.themeButton:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
