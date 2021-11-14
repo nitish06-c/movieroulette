@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="reroll.css">
+        
+    </head>
+    <body class="lightGradient" scroll="no" style="overflow: hidden">
+        <script>
+            function get(){
+              // (A) GET THE PARAMETERS
+              var params = new URLSearchParams(window.location.search),
+                  first = params.get("first");
+              // (B) IT WORKS!
+              switch (parseInt(first, 10)) {
+                      case 1:
+                      var url = "action.html";
+                      location.href = url;
+                        break;
+                      case 2:
+                      var url = "comedy.html";
+                      location.href = url;
+                        break;
+                      case 3:
+                      var url = "drama.html";
+                      location.href = url;
+                        break;
+                      case 4:
+                      var url = "fantasy.html";
+                      location.href = url;
+                        break;
+                      case 5:
+                      var url = "horror.html";
+                      location.href = url;
+                        break;
+                      case 6:
+                      var url = "romance.html";
+                      location.href = url;
+                        break;
+                    }
+            }
+            </script>
+        <div class="curtainFore">
+            <img id="curtainsfront" src="TopCurtains.png" alt="Audience">
+        </div>
+        <div>
+            <div class="centeredWidget">
+                <div class="rerollquestion"><p>Do you want to change <br> your movie genre?</p></div>
+                <div class='buttonGroup'>
+                    <button class="themeButton" onclick="location.href='index.html'">Yes</button>
+                    <button class="themeButton" onclick="get()">No</button>
+                </div>
+                <script>
+                    function myFunction() {
+                    }
+                    </script>
+            </div>
+            </div>
+                <div class="audienceImg">
+                    <img id="crowdimg" src="Crowd.png" alt="Audience">
+            </div>
+        </div>
+    </body>
