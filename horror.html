@@ -85,6 +85,22 @@
             </style>
     </head>
     <body class="lightGradient" scroll="no" style="overflow: hidden">
+      <script>
+        function go(){
+          // (A) VARIABLES TO PASS
+          var firstNum = 5;
+          var first = firstNum.toString();
+        
+          // (B) URL PARAMETERS
+          var params = new URLSearchParams();
+          params.append("first", first);
+        
+          // (C) GO!
+          var url = "reroll.html?" + params.toString();
+          location.href = url;
+          // window.open(url);
+        }
+        </script>
       <div class="curtainFore">
         <img id="curtainsfront" src="TopCurtains.png" alt="Audience">
     </div>
@@ -126,6 +142,7 @@
               }
               </script>
         </div>
+        <button class="themeButton" onclick="go()">Prefer something else?</button>
         <div class="audienceImg">
           <img id="crowdimg" src="Crowd.png" alt="Audience">
         </div>
