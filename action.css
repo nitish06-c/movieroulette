@@ -7,9 +7,13 @@
   background-color: #000000;
   border-radius: 10px;
   }
+.lightGradient {background: linear-gradient(180deg, rgba(255, 168, 0, 0.67) 0%, rgba(0, 0, 0, 0) 99.99%, rgba(0, 0, 0, 0.67) 100%);
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+}
     
   .centeredWidget {
-    height: 52vh;
+    height: 50vh;
     width: 450px;
     display: flex;
     justify-content: center;
@@ -26,6 +30,7 @@
 
   .imageManip {
     margin-top: -120px;
+    position: fixed;
   }
 
   .movieTitle {    
@@ -37,4 +42,19 @@
 
     color: #000000;
   }
+
+  .audienceImg {
+    position: absolute;
+    display: flex;
+      left: 150px;
+      bottom: 0;
+  }
+
+  .curtainFore {
+    position: absolute;
+    display: flex;
+    top: -3px;
+    left: -20px;
+  }
+  
   
