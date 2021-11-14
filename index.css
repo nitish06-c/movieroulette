@@ -14,6 +14,9 @@ border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  align-self: center;
+  position: absolute;
+  left: 32.8%;
   margin: auto;
   margin-top: 250px;
   background-color: #e6e6e6;
@@ -58,6 +61,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
   grid-template-columns: auto auto;
   grid-gap: 15px; 
   margin-top: 200px; 
+  position: fixed;
 }
 
 .themeButton {
@@ -96,3 +100,18 @@ border: none;
   position: absolute;
   display: flex;
 }
+
+.curtainFore {
+    position: absolute;
+    display: flex;
+    top: -3px;
+    left: -20px;
+  }
+
+  .curtainBack {
+    position: absolute;
+    display: flex;
+    top: -3px;
+    left: -20px;
+  }
+  
